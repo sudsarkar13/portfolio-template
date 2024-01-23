@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "build-css": "tailwindcss build src/styles.css -o dist/styles.css"
+    "lint": "next lint"
   },
   "dependencies": {
     "bootstrap-icons": "^1.11.3",
