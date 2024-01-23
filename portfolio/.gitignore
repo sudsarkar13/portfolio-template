@@ -19,7 +19,7 @@
 # misc
 .DS_Store
 *.pem
-.hide
+/.hide
 
 # debug
 npm-debug.log*
