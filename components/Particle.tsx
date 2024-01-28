@@ -23,8 +23,11 @@ const Particle = () => {
 		});
 	}, []);
 
-	const particlesLoaded = (container: any) => {
-		console.log(container);
+	const particlesLoaded = (container) => {
+		return new Promise<void>((resolve) => {
+			console.log(container);
+			resolve();
+		});
 	};
 
 	const options = useMemo(
