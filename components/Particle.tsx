@@ -67,7 +67,7 @@ const Particle = () => {
 					width: 1,
 				},
 				move: {
-					direction: "none",
+					direction: none,
 					enable: true,
 					outModes: {
 						default: "bounce",
