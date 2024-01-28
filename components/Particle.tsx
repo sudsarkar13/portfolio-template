@@ -4,7 +4,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 // import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
 // import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
-import { Container } from "@tsparticles/react";
+import { Container } from "@tsparticles/engine";
 
 const Particle = () => {
 	const [init, setInit] = useState(false);
@@ -24,7 +24,7 @@ const Particle = () => {
 		});
 	}, []);
 
-	const particlesLoaded = (container: any) => {
+	const particlesLoaded = (container: Container) => {
 		return new Promise<void>((resolve) => {
 			console.log(container);
 			resolve();
