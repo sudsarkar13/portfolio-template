@@ -1,5 +1,5 @@
 import React from "react";
-import Particle from "./Particle";
+// import Particle from "./Particle";
 // import Error404 from "./errors/Error404";
 // import Error503 from "./errors/Error503";
 
