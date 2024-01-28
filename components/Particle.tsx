@@ -23,7 +23,7 @@ const Particle = () => {
 		});
 	}, []);
 
-	const particlesLoaded = (container) => {
+	const particlesLoaded = (container: any) => {
 		console.log(container);
 	};
 
