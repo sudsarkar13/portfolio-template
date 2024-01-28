@@ -6,7 +6,7 @@ import Particle from "./Particle";
 const Hero = () => {
 	return (
 		<div className="h-[91vh] bg-[url('/images/banner.jpg')] bg-cover bg-center ">
-			<Particle />
+			{/* <Particle /> */}
 		</div>
 	);
 };
