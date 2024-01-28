@@ -24,7 +24,7 @@ const Particle = () => {
 		});
 	}, []);
 
-	const particlesLoaded = (container: Container) => {
+	const particlesLoaded = (container?: Container) => {
 		return new Promise<void>((resolve) => {
 			console.log(container);
 			resolve();
