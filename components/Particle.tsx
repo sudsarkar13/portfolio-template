@@ -67,10 +67,10 @@ const Particle = () => {
 					width: 1,
 				},
 				move: {
-					direction: "none", // Set direction to one of the valid options
+					direction: "none" as const,
 					enable: true,
 					outModes: {
-						default: "bounce",
+						default: "bounce" as const,
 					},
 					random: false,
 					speed: 6,
