@@ -16,7 +16,7 @@ const HomePage = () => {
 				<title>Sudeepta's Portfolio</title>
 				<link
 					rel='icon'
-					href='/public/favicon/favicon.ico'
+					href='/public/favicon/favicon.png'
 					type='image/x-icon'
 				/>
 			</Head>
