@@ -3,6 +3,7 @@ import React from "react";
 import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import Image from "next/image";
+import ArrowDownTrayIcon from "@heroicons/react/20/solid/esm/ArrowDownTrayIcon";
 // import Error404 from "./errors/Error404";
 // import Error503 from "./errors/Error503";
 
@@ -16,9 +17,28 @@ const Hero = () => {
 						HI, I'M <span className='text-yellow-400'>SUDEEPTA!</span>
 					</h1>
 					<TextEffect />
+					<p className='mt-[2rem] text-[20px] text-[#ffffff92]'>
+						A highly motivated B.Tech graduate with a passion for Web
+						Development, User Experience, and Product Management. Possesses 5
+						years of freelancing experience, demonstrating strong team spirit,
+						critical thinking, and problem-solving skills. Eager to leverage
+						technical expertise and creative thinking to contribute to a dynamic
+						and innovative IT organization.
+					</p>
+					<div className='mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6'>
+						<button className='px-[2rem] bg-yellow-400 hover:bg-[#55e6a5] transition-all duration-200 py'>
+							<p>Download Resume</p>
+							<ArrowDownTrayIcon />
+						</button>
+					</div>
 				</div>
-				<div className="w-[470px] hidden bg-yellow-500 relative lg:flex items-center rounded-full h-[500px]">
-					<Image src='/images/Sudeepta.png' alt='Sudeepta' layout="fill" className="object-cover rounded-full"/>
+				<div className='w-[470px] hidden bg-yellow-500 relative lg:flex items-center rounded-full h-[500px]'>
+					<Image
+						src='/images/Sudeepta.png'
+						alt='Sudeepta'
+						layout='fill'
+						className='object-cover rounded-full'
+					/>
 				</div>
 			</div>
 		</div>
