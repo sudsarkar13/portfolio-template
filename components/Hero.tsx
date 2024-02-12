@@ -17,7 +17,7 @@ const Hero = () => {
 					</h1>
 					<TextEffect />
 				</div>
-				<div className="w-[500px] hidden bg-transparent relative lg:flex items-center rounded-full h-[500px]">
+				<div className="w-[470px] hidden bg-yellow-500 relative lg:flex items-center rounded-full h-[500px]">
 					<Image src='/images/Sudeepta.png' alt='Sudeepta' layout="fill" className="object-cover rounded-full"/>
 				</div>
 			</div>
