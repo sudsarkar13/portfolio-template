@@ -1,0 +1,147 @@
+/* Your custom font go here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
+/* Basic styles from tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.nav-link {
+		@apply relative font-semibold text-white cursor-pointer text-[20px] md:text-[18px] sm:text-[17px] w-fit md:block after:block after:content-[''] after:absolute after:h-[3px] after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hidden;
+	}
+	/* For Mobile or SmartPhone */
+	.nav-link-mobile {
+		@apply relative mb-[2rem] font-semibold text-white cursor-pointer text-[22px] w-fit md:block after:block after:content-[''] after:absolute after:h-[3px] after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center;
+	}
+	/* Social Link Icons for Mobile and Tablets */
+	@media (max-width: 1024px) {
+		.social-linkIcon-mobile {
+			@apply items-center justify-center;
+		}
+	}
+	.heading {
+		@apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase;
+	}
+	.heading-small {
+		@apply text-center text-white text-[22px] pb-[2rem] sm:text-[25px] md:text-[35px] font-bold capitalize;
+	}
+	/* About Section */
+	.about-p {
+		@apply text-[19px] text-slate-300 w-[80%];
+	}
+	/* Services Area */
+	.services-area {
+		@apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white;
+	}
+
+	/* GitHub Contribution */
+	
+	.github-contribution {
+    @apply mx-auto items-center mt-[2rem] text-white justify-center pt-[1rem] px-[3rem] w-[50%];
+	}
+
+	@media (min-width: 1025px) {
+  /* Hide GitHub Contribution Mobile on Desktop */
+  	.github-contribution-mobile {
+    	@apply hidden;
+  	}
+	}
+
+	@media (max-width: 1024px) {
+  	/* Hide GitHub Contribution on Mobile */
+    .github-contribution {
+        @apply hidden;
+    	}
+    /* GitHub Contribution Mobile */
+    .github-contribution-mobile {
+        @apply mx-auto items-center mt-[2rem] text-white justify-center pt-[1rem] w-[80%];
+    }
+	}
+	/* Blockquote Custom Style */
+	.quote-container {
+		@apply justify-center items-center p-3;
+	}
+	.quote-icon-l {
+		@apply text-[25px] text-yellow-400 -ml-8;
+	}
+	.quote-icon-r {
+		@apply text-[25px] text-yellow-400 ml-[33rem];
+	}
+	/* For Mobile */
+	@media (max-width: 1024px) {
+		.quote-icon-l {
+			@apply text-[25px] text-yellow-400 -ml-6;
+		}
+		.quote-icon-r {
+			@apply text-[25px] text-yellow-400 ml-[18.2rem];
+		}
+		.quote {
+			@apply italic text-[18px] text-slate-300 text-center opacity-70 items-center justify-center w-[100%];
+		}
+	}
+	.quote {
+		@apply italic text-[18px] text-slate-300 opacity-90 items-center justify-center w-[100%];
+	}
+	.quote-author {
+		@apply text-yellow-400 text-[18px] font-semibold;
+	}
+	@media (max-width: 1024px) {
+		.quote-author {
+			@apply text-yellow-400 text-[16px] font-semibold  italic ml-[9rem];
+		}
+	}
+	/* Other Material CSS */
+
+	/* Do not interfere with the code below */
+	/* Footer */
+	.footer {
+		@apply pt-[8rem] pb-[4rem] bg-[#02050a]  ;
+	}
+	.footer-1 {
+		@apply grid border-b-[1px] pb-[6rem] border-gray-400 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto gap-[3rem];
+	}
+	.footer-2 {
+		@apply flex items-center space-x-6;
+	}
+	.footer-3 {
+		@apply md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#0D0C37];
+	}
+	.footer-icon {
+		@apply md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-white;
+	}
+	.footer-address {
+		@apply text-white text-[25px] mb-[0.2rem] font-semibold  ;
+	}
+	.footer-address-p {
+		@apply text-[17px] w-[90%] text-white opacity-60 ;
+	}
+	.footer-4 {
+		@apply w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between;
+	}
+	.footer-txt {
+		@apply text-[16px] mb-[2rem] md:mb-0 text-white opacity-20;
+	}
+	.footer-5 {
+		@apply flex items-center space-x-10;
+	}
+	.footer-txt-p {
+		@apply text-[16px] text-white opacity-20 ;
+	}
+	/* Footer for Mobile */
+	@media (max-width: 1024px) {
+		.footer-txt {
+			@apply text-[12px] mb-[2rem] md:mb-0 text-white opacity-20;
+		}
+		.footer-txt-p {
+			@apply text-[12px] text-white opacity-20 cursor-pointer ;
+		}
+	}
+
+	/* @media (max-width: 1024px) {
+		.footer {
+			@apply text-center bg-[#0D0C37] text-white font-[500] text-[12px] p-[1rem];
+		}
+	} */
+}
