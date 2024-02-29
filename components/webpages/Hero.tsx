@@ -7,7 +7,6 @@ import Image from "next/legacy/image";
 import ArrowDownTrayIcon from "@heroicons/react/20/solid/esm/ArrowDownTrayIcon";
 
 const Hero = () => {
-	
 	return (
 		<div className="h-[90vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center ">
 			<Particle />
@@ -18,12 +17,10 @@ const Hero = () => {
 					</h1>
 					<TextEffect />
 					<p className='mt-[1.5rem] text-[18px] text-[#ffffff92]'>
-						A highly motivated B.Tech graduate with a passion for Web
-						Development, User Experience, and Product Management. Possesses 5
-						years of freelancing experience, demonstrating strong team spirit,
-						critical thinking, and problem-solving skills. Eager to leverage
-						technical expertise and creative thinking to contribute to a dynamic
-						and innovative IT organization.
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ad
+						praesentium temporibus minima perspiciatis culpa veniam debitis
+						illum maxime, ut, ipsum eveniet harum accusamus asperiores ipsa
+						consequatur dolorem tempore et.
 					</p>
 					<div className='download-btn mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6'>
 						<a href='/files/RSCV.pdf' target='_blank'>

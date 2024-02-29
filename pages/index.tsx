@@ -61,17 +61,17 @@ const HomePage = () => {
 					{/* About */}
 					<About />
 					{/* Services */}
-					{/* <Services /> */}
+					<Services />
 					{/* Skills */}
-					{/* <Skills /> */}
+					<Skills />
 					{/* Projects */}
 					<Projects />
 					{/* Reviews/Testimonials */}
-					{/* <Testimonial /> */}
+					<Testimonial />
 					{/* Blog */}
-					{/* <Blog /> */}
+					<Blog />
 					{/* Contact */}
-					{/* <Contact /> */}
+					<Contact />
 					{/* Footer */}
 					<Footer />
 				</div>

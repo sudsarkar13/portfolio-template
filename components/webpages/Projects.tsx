@@ -18,19 +18,19 @@ const Projects = () => {
 				<div data-aos="fade-up">
 					<Project1 />
 				</div>
-				<div data-aos="fade-up" data-aos-delay="300" className='hidden'>
+				<div data-aos="fade-up" data-aos-delay="300">
 					<Project2 />
 				</div>
-				<div data-aos="fade-up" data-aos-delay="600" className='hidden'>
+				<div data-aos="fade-up" data-aos-delay="600">
 					<Project3 />
 				</div>
-				<div data-aos="fade-up" data-aos-delay="900" className='hidden'>
+				<div data-aos="fade-up" data-aos-delay="900">
 					<Project4 />
 				</div>
-				<div data-aos="fade-up" data-aos-delay="1200" className='hidden'>
+				<div data-aos="fade-up" data-aos-delay="1200">
 					<Project5 />
 				</div>
-				<div data-aos="fade-up" data-aos-delay="1600" className='hidden'>
+				<div data-aos="fade-up" data-aos-delay="1600">
 					<Project6 />
 				</div>
 			</div>
